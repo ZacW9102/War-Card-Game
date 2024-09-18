@@ -5,13 +5,24 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="game">
             <h1 class="title">WAR</h1>
-            <button id="new-deck">New Deck</button>
+            <div class="top">
+                <button id="shuffle-cards">Shuffle Deck</button>
+                <h3 id="remaining-cards"></h3>
+            </div>
+            <h2 id="header" class="header">Draw To Win!</h2>
+            <div id="cards">
+                <div class="card-slot"></div>
+                <div class="card-slot"></div>
+            </div>
             <button id="draw-cards">Draw</button>
-            <div id="cards"></div>
             <script src="index.js"></script>
         </div>
     </body>
