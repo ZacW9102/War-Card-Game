@@ -88,3 +88,19 @@ img.card {
     align-items: center;
     padding: 0 20px;
 }
+
+.top h3 {
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.scores h3 {
+    width: 215px;
+    text-align: center;
+    font-size: 1.2rem;
+}
